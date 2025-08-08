@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-
+  srand(int(time(0)));
   int randint = rand() % 100 + 1;
   int prediction;
 
